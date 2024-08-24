@@ -1,19 +1,19 @@
-.navbar {
-    background-color: #343a40;
+.custom-navbar {
+    background-color: #000 !important; /* Black background */
 }
 
-.navbar .navbar-brand{
-    color: #fff;
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+    color: #fff !important; /* White text */
 }
 
-.navbar .nav-link{
-    color: #fff !important;
+.custom-navbar .nav-link {
     text-decoration: none !important;
     margin-right: 20px;
 }
 
 @media (max-width: 576px) {
-    .navbar .nav-link{
+    .custom-navbar .nav-link {
         margin-right: 0;
     }
 }

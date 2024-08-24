@@ -6,7 +6,7 @@
     height: 90vh;
 }
 
-.center-form Form {
+.center-form Form{
     max-width: 400px;
     width: 100%;
     padding: 20px;
@@ -14,30 +14,25 @@
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: left;
+    text-align: center;
 }
 
-.center-form Form .form-group {
+.center-form Form Label{
+    font-weight: bold;
+}
+
+.center-form Form .form-control{
     margin-bottom: 20px;
-}
-
-.center-form Form .form-control {
     padding: 10px;
 }
 
 .center-form Form .btn {
-    background-color: #000; /* Black background */
-    color: #fff; /* White text */
+    /*background-color: #1877f2;*/
+    color: #fff;
     border: none;
     padding: 10px 0;
 }
 
 .center-form Form .btn:hover {
-    background-color: #333; /* Darker black for hover effect */
-}
-
-.error-message {
-    color: red;
-    margin-bottom: 15px;
-    font-size: 14px;
+    background-color: #166fe5;
 }
